@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MiniAdonet
+build_property.RootNamespace = MiniAdonet
+build_property.ProjectDir = /Users/a1-16/Desktop/gitprojects/MiniAdonet/MiniAdonet/
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/a1-16/Desktop/gitprojects/MiniAdonet/MiniAdonet
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/a1-16/Desktop/gitprojects/MiniAdonet/MiniAdonet/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-16/Desktop/gitprojects/MiniAdonet/MiniAdonet/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-16/Desktop/gitprojects/MiniAdonet/MiniAdonet/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-16/Desktop/gitprojects/MiniAdonet/MiniAdonet/Pages/teknoloji/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvdGVrbm9sb2ppL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-16/Desktop/gitprojects/MiniAdonet/MiniAdonet/Pages/teknoloji/kategoriler/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvdGVrbm9sb2ppL2thdGVnb3JpbGVyL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-16/Desktop/gitprojects/MiniAdonet/MiniAdonet/Pages/teknoloji/kategoriler/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvdGVrbm9sb2ppL2thdGVnb3JpbGVyL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-16/Desktop/gitprojects/MiniAdonet/MiniAdonet/Pages/teknoloji/kategoriler/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvdGVrbm9sb2ppL2thdGVnb3JpbGVyL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-16/Desktop/gitprojects/MiniAdonet/MiniAdonet/Pages/teknoloji/kategoriler/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvdGVrbm9sb2ppL2thdGVnb3JpbGVyL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-16/Desktop/gitprojects/MiniAdonet/MiniAdonet/Pages/teknoloji/musteriler/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvdGVrbm9sb2ppL211c3RlcmlsZXIvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-16/Desktop/gitprojects/MiniAdonet/MiniAdonet/Pages/teknoloji/musteriler/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvdGVrbm9sb2ppL211c3RlcmlsZXIvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-16/Desktop/gitprojects/MiniAdonet/MiniAdonet/Pages/teknoloji/musteriler/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvdGVrbm9sb2ppL211c3RlcmlsZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-16/Desktop/gitprojects/MiniAdonet/MiniAdonet/Pages/teknoloji/satislar/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvdGVrbm9sb2ppL3NhdGlzbGFyL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-16/Desktop/gitprojects/MiniAdonet/MiniAdonet/Pages/teknoloji/satislar/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvdGVrbm9sb2ppL3NhdGlzbGFyL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-16/Desktop/gitprojects/MiniAdonet/MiniAdonet/Pages/teknoloji/satislar/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvdGVrbm9sb2ppL3NhdGlzbGFyL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-16/Desktop/gitprojects/MiniAdonet/MiniAdonet/Pages/teknoloji/urunler/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvdGVrbm9sb2ppL3VydW5sZXIvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-16/Desktop/gitprojects/MiniAdonet/MiniAdonet/Pages/teknoloji/urunler/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvdGVrbm9sb2ppL3VydW5sZXIvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-16/Desktop/gitprojects/MiniAdonet/MiniAdonet/Pages/teknoloji/urunler/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvdGVrbm9sb2ppL3VydW5sZXIvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-16/Desktop/gitprojects/MiniAdonet/MiniAdonet/Pages/teknoloji/urunler/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvdGVrbm9sb2ppL3VydW5sZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-16/Desktop/gitprojects/MiniAdonet/MiniAdonet/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-16/Desktop/gitprojects/MiniAdonet/MiniAdonet/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/a1-16/Desktop/gitprojects/MiniAdonet/MiniAdonet/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-yehh025wda

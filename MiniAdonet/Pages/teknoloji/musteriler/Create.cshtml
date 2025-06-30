@@ -1,0 +1,25 @@
+﻿@page
+@model MiniAdonet.Pages.teknoloji.musteriler.CreateModel
+@{
+    ViewData["Title"] = "Müşteri Kayıt";
+}
+
+<div class="container mt-5">
+    <h3 class="mb-4">Yeni Müşteri Kaydı</h3>
+    <form method="post">
+        <div class="mb-3">
+            <label class="form-label">Ad Soyad</label>
+            <input type="text" class="form-control" name="AdSoyad" required />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" name="Email" required />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Telefon</label>
+            <input type="text" class="form-control" name="Telefon" required />
+        </div>
+        <button type="submit" class="btn btn-primary">Kaydet</button>
+        <a href="/teknoloji" class="btn btn-outline-warning">İptal</a>
+    </form>
+</div>

@@ -1,0 +1,54 @@
+﻿@page
+@model MiniAdonet.Pages.teknoloji.urunler.EditModel
+@{
+}
+
+<br />
+<h2 class="text-info">Ürün Güncelleme Ekranı</h2>
+
+<form method="post">
+    <input type="hidden" name="urunid" value="@Model.urun.UrunID" />
+
+    <div class="row mb-3">
+        <label class="col-sm-3">Ürün Adı</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="urunadi" value="@Model.urun.UrunAdi" required />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3">Fiyat</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="fiyat" value="@Model.urun.Fiyat" required />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3">Stok</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="stok" value="@Model.urun.Stok" required />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3">Kategori</label>
+        <div class="col-sm-6">
+            <select class="form-select" name="kategoriid" required>
+                <option value="">-- Seçiniz --</option>
+                @foreach (var k in Model.KategoriList)
+                {
+                    <option value="@k.KategoriID">@k.KategoriAdi</option>
+                }
+            </select>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary">Güncelle</button>
+        </div>
+        <div class="col-sm-3 d-grid">
+            <a href="/teknoloji/urunler/" class="btn btn-outline-danger">İptal</a>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,37 @@
+﻿@page
+@model teknoloji.satislar.IndexModel
+@{
+    ViewData["Title"] = "Satış Listesi";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">Satış Listesi</h2>
+
+    <table class="table table-bordered table-hover table-striped">
+        <thead class="table-secondary">
+            <tr>
+                <th scope="col">Satış ID</th>
+                <th scope="col">Müşteri ID</th>
+                <th scope="col">Ürün Adı</th>
+                <th scope="col">Adet</th>
+                <th scope="col">Satış Tarihi</th>
+                <th scope="col">İşlemler</th>
+            </tr>
+        </thead>
+        <tbody class="text-center align-middle">
+            @foreach (var satis in Model.SatisList)
+            {
+                <tr>
+                    <td>@satis.SatisID</td>
+                    <td>@satis.MusteriID</td>
+                    <td>@satis.UrunAdi</td>
+                    <td>@satis.Adet</td>
+                    <td>@satis.SatisTarihi.ToString("yyyy-MM-dd HH:mm")</td>
+                    <td class="d-flex justify-content-center">
+                        <a href="/teknoloji/satislar/Delete?id=@satis.SatisID" class="btn btn-danger btn-sm" onclick="return confirm('Bu satışı silmek istediğinize emin misiniz?');">Sil</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "qiyaj6E9OjRUYPNSI+OGfnK5wpgablKp9MTad8AgfwNaxYCLvZnogeQKkGy8sc3guT8QFLOA+KbQn94iZqEeKQ==",
+  "success": true,
+  "projectFilePath": "/Users/a1-16/Desktop/gitprojects/MiniAdonet/MiniAdonet/MiniAdonet.csproj",
+  "expectedPackageFiles": [
+    "/Users/a1-16/.nuget/packages/runtime.native.system.data.sqlclient.sni/4.4.0/runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/Users/a1-16/.nuget/packages/runtime.win-arm64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/Users/a1-16/.nuget/packages/runtime.win-x64.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/Users/a1-16/.nuget/packages/runtime.win-x86.runtime.native.system.data.sqlclient.sni/4.4.0/runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "/Users/a1-16/.nuget/packages/system.data.sqlclient/4.9.0/system.data.sqlclient.4.9.0.nupkg.sha512"
+  ],
+  "logs": []
+}

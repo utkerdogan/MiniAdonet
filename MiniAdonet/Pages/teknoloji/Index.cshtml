@@ -1,0 +1,24 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Technoku";
+}
+
+<div class="container mt-5">
+    <h1 class="text-primary mb-4">🛍️ Teknoloji Mağazası</h1>
+
+    <div class="d-flex gap-3">
+        <a asp-page="urunler/Index" class="btn btn-outline-secondary btn-lg">
+            📦 Ürünleri Görüntüle
+        </a>
+        <a asp-page="kategoriler/Index" class="btn btn-outline-success btn-lg">
+            🗂️ Kategorileri Görüntüle
+        </a>
+        <a asp-page="satislar/Index" class="btn btn-outline-warning btn-lg">
+            🗂️ Satışları Görüntüle
+        </a>
+        <a asp-page="satislar/Create" class="btn btn-outline-danger btn-lg">
+            📦 Satın Al
+        </a>
+    </div>
+</div>

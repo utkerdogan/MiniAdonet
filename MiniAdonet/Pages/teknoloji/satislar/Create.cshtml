@@ -1,0 +1,48 @@
+﻿@page
+@model MiniAdonet.Pages.teknoloji.satislar.CreateModel
+@{
+    ViewData["Title"] = "Satış Oluştur";
+}
+
+<div class="d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+    <div class="card p-4 shadow" style="width: 500px;">
+        <h3 class="text-center mb-4">Satış Oluştur</h3>
+
+        <form method="post">
+            <div class="mb-3">
+                <label class="form-label">Müşteri Seç</label>
+                <select class="form-select" name="musteriId" required>
+                    <option value="">-- Müşteri Seçin --</option>
+                    @foreach (var musteri in Model.MusteriList)
+                    {
+                        <option value="@musteri.MusteriID">@musteri.AdSoyad</option>
+                    }
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Ürün Seç</label>
+                <select class="form-select" name="urunId" required>
+                    <option value="">-- Ürün Seçin --</option>
+                    @foreach (var urun in Model.UrunList)
+                    {
+                        <option value="@urun.UrunID">@urun.UrunAdi</option>
+                    }
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Adet</label>
+                <input type="number" class="form-control" name="adet" min="1" required />
+            </div>
+
+            <div class="d-grid">
+                <button type="submit" class="btn btn-success">Satın Al</button>
+            </div>
+
+            <div class="mt-2 text-center">
+                <a href="/teknoloji/satislar" class="btn btn-outline-secondary btn-sm">Satış Listesine Dön</a>
+            </div>
+        </form>
+    </div>
+</div>

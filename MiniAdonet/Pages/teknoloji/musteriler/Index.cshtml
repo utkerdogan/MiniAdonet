@@ -1,0 +1,35 @@
+﻿@page
+@model MiniAdonet.Pages.teknoloji.musteriler.IndexModel
+@{
+    ViewData["Title"] = "Müşteri Listesi";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">Müşteri Listesi</h2>
+
+    <table class="table table-bordered table-hover table-striped">
+        <thead class="table-dark text-center">
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Ad Soyad</th>
+                <th scope="col">Email</th>
+                <th scope="col">Telefon</th>
+                <th scope="col">İşlemler</th>
+            </tr>
+        </thead>
+        <tbody class="text-center align-middle">
+            @foreach (var musteri in Model.MusteriList)
+            {
+                <tr>
+                    <td>@musteri.MusteriID</td>
+                    <td>@musteri.AdSoyad</td>
+                    <td>@musteri.Email</td>
+                    <td>@musteri.Telefon</td>
+                    <td class="d-flex justify-content-center">
+                        <a href="/teknoloji/musteriler/Delete?id=@musteri.MusteriID" class="btn btn-sm m-2 btn-danger">Sil</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

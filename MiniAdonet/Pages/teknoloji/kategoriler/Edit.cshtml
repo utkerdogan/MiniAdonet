@@ -1,0 +1,28 @@
+﻿@page
+@model MiniAdonet.Pages.teknoloji.kategoriler.EditModel
+@{
+}
+
+<br />
+<h2>Kategori Güncelleme Ekranı</h2>
+
+<form method="post">
+    <input type="hidden" name="kategoriid" value="@Model.kat.KategoriID" />
+
+    <div class="row mb-3">
+        <label class="col-sm-3">Kategori Adi</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="kategoriAdi" required />
+        </div>
+
+    </div>
+
+    <div class="row mb-3">
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-success">Kaydet</button>
+        </div>
+        <div class="col-sm-3 d-grid">
+            <a href="/kategoriler" class="btn btn-outline-warning">İptal</a>
+        </div>
+    </div>
+</form>

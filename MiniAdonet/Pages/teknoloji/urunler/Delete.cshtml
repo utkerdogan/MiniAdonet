@@ -1,0 +1,27 @@
+﻿@page
+@using System.Data.SqlClient
+@{
+    try
+    {
+        string ID = Request.Query["id"]; // "id" küçük harf!
+
+        string connectionString = "Server=localhost;Database=MiniAdonet;User Id=SA;Password=reallyStrongPwd123;TrustServerCertificate=True;";
+        using (SqlConnection con = new SqlConnection(connectionString))
+        {
+            con.Open();
+            string sql = "DELETE FROM Urunler WHERE UrunID=@ID";
+            using (SqlCommand command = new SqlCommand(sql, con))
+            {
+                command.Parameters.AddWithValue("@ID", ID);
+                command.ExecuteNonQuery();
+            }
+        }
+    }
+    catch (Exception ex)
+    {
+        // Hata olursa yazdır (geliştirme sürecinde)
+        Console.WriteLine("Hata: " + ex.Message);
+    }
+
+    Response.Redirect("/teknoloji/urunler");
+}
